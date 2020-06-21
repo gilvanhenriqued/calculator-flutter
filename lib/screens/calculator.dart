@@ -21,6 +21,7 @@ class _CalculatorState extends State<Calculator> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Column (
         children: <Widget>[
           Display(memory.value),
